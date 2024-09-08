@@ -11,7 +11,7 @@
 	<groupId>dev.charles</groupId>
 	<artifactId>demobalancee_rewards_management_API</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demobalancee_rewards_management_API</name>
+	<name>Balancee_rewards_management_API</name>
 	<description> creating a simple Rewards Management API for Balanceè using Spring Boot</description>
 	<url/>
 	<licenses>

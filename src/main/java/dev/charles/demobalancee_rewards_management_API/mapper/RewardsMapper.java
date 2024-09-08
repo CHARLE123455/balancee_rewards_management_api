@@ -1,5 +1,4 @@
 package dev.charles.demobalancee_rewards_management_API.mapper;
-
 import dev.charles.demobalancee_rewards_management_API.dto.CashbackTransactionDTO;
 import dev.charles.demobalancee_rewards_management_API.dto.RewardsBalanceDTO;
 import dev.charles.demobalancee_rewards_management_API.entity.CashbackTransactions;
