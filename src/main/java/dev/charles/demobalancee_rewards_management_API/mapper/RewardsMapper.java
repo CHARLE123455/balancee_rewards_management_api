@@ -6,11 +6,15 @@ import dev.charles.demobalancee_rewards_management_API.entity.CustomerRewards;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
+
 @Mapper(componentModel = "spring")
 public interface RewardsMapper {
-    @Mapping(source = "id", target = "customerId")
+    // Mapping for Customer Rewards
+    @Mapping(source = "customerId", target = "customerId")
     RewardsBalanceDTO toRewardsBalanceDTO(CustomerRewards customerRewards);
 
-    @Mapping(source = "id",target = "transactionId")
+    // Mapping for Cashback Transactions
+    @Mapping(source = "id", target = "transactionId")
     CashbackTransactionDTO toCashbackTransactionDTO(CashbackTransactions cashbackTransactions);
 }
+
