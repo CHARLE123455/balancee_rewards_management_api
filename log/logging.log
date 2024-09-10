@@ -1229,3 +1229,38 @@ This generated password is for development use only. Your security configuration
 2024-09-10T16:31:34.028+01:00  INFO 2500 --- [demobalancee_rewards_management_API] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2024-09-10T16:31:34.147+01:00  INFO 2500 --- [demobalancee_rewards_management_API] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8181 (http) with context path '/'
 2024-09-10T16:31:34.167+01:00  INFO 2500 --- [demobalancee_rewards_management_API] [restartedMain] .BalanceeRewardsManagementApiApplication : Started BalanceeRewardsManagementApiApplication in 12.05 seconds (process running for 13.732)
+2024-09-10T16:43:33.358+01:00  INFO 23144 --- [demobalancee_rewards_management_API] [restartedMain] .BalanceeRewardsManagementApiApplication : Starting BalanceeRewardsManagementApiApplication using Java 22.0.1 with PID 23144 (C:\Users\ETC\Desktop\Mag_portfolio\Balancee_rewards_management_API\target\classes started by ETC in C:\Users\ETC\Desktop\Mag_portfolio\Balancee_rewards_management_API)
+2024-09-10T16:43:33.363+01:00  INFO 23144 --- [demobalancee_rewards_management_API] [restartedMain] .BalanceeRewardsManagementApiApplication : No active profile set, falling back to 1 default profile: "default"
+2024-09-10T16:43:33.511+01:00  INFO 23144 --- [demobalancee_rewards_management_API] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-10T16:43:33.512+01:00  INFO 23144 --- [demobalancee_rewards_management_API] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-10T16:43:36.155+01:00  INFO 23144 --- [demobalancee_rewards_management_API] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-10T16:43:36.296+01:00  INFO 23144 --- [demobalancee_rewards_management_API] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 122 ms. Found 2 JPA repository interfaces.
+2024-09-10T16:43:37.888+01:00  INFO 23144 --- [demobalancee_rewards_management_API] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8181 (http)
+2024-09-10T16:43:37.911+01:00  INFO 23144 --- [demobalancee_rewards_management_API] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-10T16:43:37.911+01:00  INFO 23144 --- [demobalancee_rewards_management_API] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-10T16:43:38.017+01:00  INFO 23144 --- [demobalancee_rewards_management_API] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-10T16:43:38.018+01:00  INFO 23144 --- [demobalancee_rewards_management_API] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4504 ms
+2024-09-10T16:43:38.658+01:00  INFO 23144 --- [demobalancee_rewards_management_API] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-10T16:43:38.759+01:00  INFO 23144 --- [demobalancee_rewards_management_API] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-10T16:43:38.819+01:00  INFO 23144 --- [demobalancee_rewards_management_API] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-10T16:43:39.380+01:00  INFO 23144 --- [demobalancee_rewards_management_API] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-10T16:43:39.428+01:00  INFO 23144 --- [demobalancee_rewards_management_API] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-10T16:43:39.718+01:00  INFO 23144 --- [demobalancee_rewards_management_API] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2f10eb7c
+2024-09-10T16:43:39.721+01:00  INFO 23144 --- [demobalancee_rewards_management_API] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-10T16:43:39.778+01:00  WARN 23144 --- [demobalancee_rewards_management_API] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-10T16:43:41.854+01:00  INFO 23144 --- [demobalancee_rewards_management_API] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-10T16:43:41.993+01:00  INFO 23144 --- [demobalancee_rewards_management_API] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-10T16:43:44.104+01:00  WARN 23144 --- [demobalancee_rewards_management_API] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 7b5067f2-e850-469e-9df3-0f80d8e25f6b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-09-10T16:43:44.132+01:00  INFO 23144 --- [demobalancee_rewards_management_API] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-09-10T16:43:44.362+01:00  INFO 23144 --- [demobalancee_rewards_management_API] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2024-09-10T16:43:44.656+01:00  INFO 23144 --- [demobalancee_rewards_management_API] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-10T16:43:44.777+01:00  INFO 23144 --- [demobalancee_rewards_management_API] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8181 (http) with context path '/'
+2024-09-10T16:43:44.799+01:00  INFO 23144 --- [demobalancee_rewards_management_API] [restartedMain] .BalanceeRewardsManagementApiApplication : Started BalanceeRewardsManagementApiApplication in 12.435 seconds (process running for 15.295)
+2024-09-10T16:43:56.891+01:00  INFO 23144 --- [demobalancee_rewards_management_API] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-10T16:43:56.896+01:00  INFO 23144 --- [demobalancee_rewards_management_API] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-10T16:43:56.913+01:00  INFO 23144 --- [demobalancee_rewards_management_API] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
